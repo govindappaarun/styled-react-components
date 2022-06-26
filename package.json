@@ -1,0 +1,42 @@
+{
+  "name": "styled-typescript-components",
+  "version": "0.0.1",
+  "description": "\"component library using react\"",
+  "main": "index.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/govindappaarun/styled-typescript-components.git"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "typescript",
+    "components"
+  ],
+  "author": "Arun Govindappa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govindappaarun/styled-typescript-components/issues"
+  },
+  "homepage": "https://github.com/govindappaarun/styled-typescript-components#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.14",
+    "@types/rollup-plugin-peer-deps-external": "^2.2.1",
+    "@types/styled-components": "^5.1.25",
+    "react": "^18.2.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "styled-components": "^5.3.5",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
